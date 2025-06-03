@@ -1,0 +1,42 @@
+html {
+    height: 100%
+}
+
+body {
+    background: radial-gradient(gray, rgb(165, 162, 162));
+    background-repeat: no-repeat;
+    height: 100%;
+    text-align: center;
+    text: color black;
+    
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: black;
+}
+
+main div {
+    background-color: gray;
+    border: 2px solid black;
+    color: white;
+    width: 200 px;
+    height: 200 px;
+    margin: auto 30rem;
+    display: center;
+    padding: 2rem;
+}
+
+.navbar {
+    background: darkgrey; padding-left: 15px; padding-right: 15px;
+}
+
+.navdiv {
+    display: flex; align-items: left; justify-content: space-between;
+    li {
+        list-style: none; display: inline-block; padding-left: 15 px; padding-right: 15px;
+    }
+}
