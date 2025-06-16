@@ -1,42 +1,47 @@
-html {
-    height: 100%
-}
-
 body {
-    background: radial-gradient(gray, rgb(165, 162, 162));
+    background-image: url(fundal.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
-    text-align: center;
-    text: color black;
-    
+    background-attachment: fixed;
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
 }
 
-ul {
-  list-style: none;
+a, h1, h2, p {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
-a {
-  color: black;
+main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-main div {
-    background-color: gray;
-    border: 2px solid black;
-    color: white;
-    width: 200 px;
-    height: 200 px;
-    margin: auto 30rem;
-    display: center;
-    padding: 2rem;
+.cutie {
+  border-style: solid;
+  padding: 5px;
+  border-radius: 10px;
+  border-color: aliceblue;
+  width: 200px;
+  height: 200px;
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(500px);
+
 }
 
-.navbar {
-    background: darkgrey; padding-left: 15px; padding-right: 15px;
+.articol {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
-.navdiv {
-    display: flex; align-items: left; justify-content: space-between;
-    li {
-        list-style: none; display: inline-block; padding-left: 15 px; padding-right: 15px;
-    }
+
+header { 
+  display: flex;
+  justify-content: center;
 }
